@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>org.apache.servicemix</groupId>
+    <artifactId>servicemix-pom</artifactId>
+    <version>5</version>
+    <relativePath>../servicemix-pom/parent.xml</relativePath>
+  </parent>
+  
+  <groupId>com.googlecode.servicemix.extra</groupId>
+  <artifactId>servicemix-pom</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <name>ServiceMix Extra POM</name>
+  <description>
+    This pom provides project information that is common to all ServiceMix Extra branches.
+  </description>
+  
+  <url>http://code.google.com/a/apache-extras.org/p/servicemix-extra/</url>
+
+  <scm>
+    <connection>scm:svn:http://svn.codespot.com/a/apache-extras.org/servicemix-extra/parent/trunk</connection>
+    <developerConnection>scm:svn:https://svn.codespot.com/a/apache-extras.org/servicemix-extra/parent/trunk</developerConnection>
+    <url>http://code.google.com/a/apache-extras.org/p/servicemix-extra/source/browse/</url>
+  </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>servicemix-extra-release</id>
+      <name>ServiceMix Extra Maven repository of releases</name>
+      <url>https://svn.codespot.com/a/apache-extras.org/servicemix-extra/maven2/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>servicemix-extra-snapshot</id>
+      <name>ServiceMix Extra Maven repository of snapshots</name>
+      <url>https://svn.codespot.com/a/apache-extras.org/servicemix-extra/maven2/snapshots</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>
